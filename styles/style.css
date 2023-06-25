@@ -1,0 +1,106 @@
+#container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#form {
+  display: inline-block;
+}
+
+#task {
+  width: 60%;
+  padding: 10px;
+  font-size: 18px;
+}
+body {
+  background-color: darkcyan;
+}
+h1 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #080808;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+.title h1 {
+  text-align: center;
+  padding-bottom: 5px;
+}
+.title h1:before {
+  width: 28px;
+  height: 5px;
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  margin-left: -14px;
+  background-color: #b80000;
+}
+.title h1:after {
+  width: 100px;
+  height: 1px;
+  display: block;
+  content: "";
+  position: relative;
+  margin-top: 25px;
+  left: 50%;
+  margin-left: -50px;
+  background-color: #b80000;
+}
+
+.todo {
+  display: block;
+  margin: 0 auto;
+  max-width: 20%;
+}
+button {
+  width: 20%;
+  padding: 10px;
+  font-size: 15px;
+  background-color: lightblue;
+  border: none;
+  cursor: pointer;
+}
+
+#task-container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+  font-size: 20px;
+  background-color: lightgray;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edit-btn, .delete-btn {
+  padding: 15px 10px;
+  font-size: 30px;
+  background-color: lightblue;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-input {
+  display: none;
+  width: 60%;
+  padding: 60px;
+  font-size: 18px;
+}

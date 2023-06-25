@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta property="og:title" content="My To-do list"/>
+  <meta property="og:type" content="To-do list"/>
+  <meta property="og:description" content="Ce site contient uen To-do list fonctionnelle en Javascript"/>
+  <meta name="description"  content="To-do list en javascript">
+  <meta name="robots" content="index,follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>My_Todo_List</title>
+  <link rel="stylesheet" type="text/css" href="./styles/style.css">
+</head>
+
+<body>
+  <img class="todo" src="./styles/todo.jpg" alt="Logo to-do list">
+  <div class="title">
+    <h1>My To-Do List</h1>
+  </div>
+  <div id="container">
+    <br><br>
+    <form id="form">
+      <input type="text" id="task" placeholder="Veuillez entrer une tâche">
+      <button type="submit">Ajouter</button>
+    </form>
+    <br><br>
+    <div id="task-container">
+      <h2>A faire</h2>
+      <ul id="pending"></ul>
+      <h2>Finie(s)</h2>
+      <ul id="completed"></ul>
+    </div>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
