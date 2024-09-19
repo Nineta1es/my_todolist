@@ -1,4 +1,4 @@
-my todo-list. it is a simple tool to create a list of tasks to remind yourself whats you need to do.
+my todo-list. it's a simple tool to create a list of tasks to remind yourself what you need to do.
 You're able to edit the list of tasks, mark them as done or delete them.
  
 
